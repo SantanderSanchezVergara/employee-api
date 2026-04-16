@@ -64,7 +64,7 @@ public interface IEmployeeController {
     })
     ResponseEntity<List<EmployeeResponseDTO>> findAll(
             @RequestParam(value = "page", defaultValue = "0") int page,
-            @RequestParam(value = "30", defaultValue = "30") int size
+            @RequestParam(defaultValue = "30") int size
     );
 
     @Operation(summary = "Listar empleados igual o mayor a 40 años")

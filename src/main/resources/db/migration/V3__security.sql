@@ -6,7 +6,7 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (username, password, role)
-VALUES ('admin', '$2a$10$8.UnVuG9HHgffUDAlk8q6OuVGkqCYAdVqKcl9/n/6Uv3S.9zL3.M6', 'ADMIN');
+VALUES ('admin', '$2a$10$YnADC4154Z6g9m3oUgAaVOpZyjo9hl1zHZ4E/g4ZSEPASeFesNY8S', 'ADMIN');
 
 
 CREATE INDEX users_username ON users(username);

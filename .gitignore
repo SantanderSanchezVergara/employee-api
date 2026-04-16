@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### H2 Database ###
+data/
+
+### Logs ###
+*.log
+
+### Archivos sueltos ###
+Test.java
+Test.class
